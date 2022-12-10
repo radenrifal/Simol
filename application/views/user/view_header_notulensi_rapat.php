@@ -1,0 +1,40 @@
+<!-- Notulensi Rapat: style can be found in dropdown.less-->
+              <li class="dropdown messages-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="glyphicon glyphicon-list-alt"></i>
+                  <?php
+                      $query = $this->model_admin_notulensi_rapat->jumlah_notulensi_per_username($this->session->userdata('username_staff'));	
+                      $nums   = $query->num_rows();
+                      if($nums != 0){
+                  ?>
+                  <span class="label bg-red"><?php echo $query->num_rows(); ?></span>
+                  <?php } ?>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">Menerima <?php echo $query->num_rows(); ?> notulensi belum dibaca</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                        <?PHP
+                            $query  = $this->model_admin_notulensi_rapat->jumlah_notulensi_per_username($this->session->userdata('username_staff'));
+                            foreach($query->result() as $row) :
+                        ?>
+                      <li><!-- start message -->
+                        <a href="#">
+                          <!--
+                          <div class="pull-left">
+                            <img src="<?php echo base_url();?>assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
+                          </div>
+                          -->
+                            <h4>
+                                <?php echo $row->penyelenggara;?>
+                            </h4>
+                            <p><?php echo $row->pembahasan;?></p>
+                        </a>
+                      </li><!-- end message -->
+                      <?PHP endforeach; ?>
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="<?php echo base_url();?>notulensi_rapat">Lihat Selengkapnya</a></li>
+                </ul>
+              </li>

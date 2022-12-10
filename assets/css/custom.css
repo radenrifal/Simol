@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header									{background-color:#3C8DBC !important; color: #FFF !important;}
+.waktu									{font-size:36px !important; text-align:center !important;}
+th.rotate 								{writing-mode: tb-rl;}
+.main-sidebar							{background-color: #F4F4F4 !important;}
+.sidebar-menu							{border-bottom: 1px solid #fff;}
+.sidebar-menu > li						{border-bottom: 1px solid #dbdbdb; border-top: 1px solid #fff;}
+.sidebar-menu > li > a,
+.sidebar-menu > li > i					{color: #555555 !important;}
+.sidebar-menu > li.active a,
+.sidebar-menu > li > a:hover			{background-color: #FFFFFF !important;}
+.sidebar-menu > li.header				{background-color: #F4F4F4 !important; color: #555555 !important;}
+.content-wrapper, .right-side			{background-color: #F9F9F9 !important;}
+.skin-green .main-header .logo 			{background-color: #00A65A !important; border-bottom: 0 solid transparent; color: #fff;}
+.skin-blue .main-header .logo 			{background-color: #3C8DBC !important; border-bottom: 0 solid transparent; color: #fff;}
+.skin-purple .main-header .logo 		{background-color: #605CA8 !important; border-bottom: 0 solid transparent; color: #fff;}
+.skin-red .main-header .logo 			{background-color: #DD4B39 !important; border-bottom: 0 solid transparent; color: #fff;}
+.skin-yellow .main-header .logo 		{background-color: #F39C12 !important; border-bottom: 0 solid transparent; color: #fff;}
+.main-footer 							{background-color: #F9F9F9 !important; border-top: 2px solid #eee; color: #444; 
+										 padding: 15px;}
+.jumbotron 								{background-color: #F9F9F9 !important; color: inherit; margin-bottom: 30px; 
+										 padding: 30px 15px;}
+.user-panel > .info > p,
+.user-panel > .info > a  				{color: #444444 !important;}
+.treeview-menu > .menu-open				{background-color:#CCC !important; color:#999999 !important;}
+.treeview-menu > .menu-open > a:hover	{color:#555555 !important;}
+.treeview-menu                          {background-color: #FFF !important;}
+.treeview-menu > li.active > a,
+.treeview-menu > li > a:hover           {color: #111111 !important; }
+.main-header .logo1 					{display: block; float: left; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    									 font-size: 20px; font-weight: 300; height: 50px; line-height: 50px; padding: 0 15px;
+    									 text-align: left; width: 450px; color:#FFF;}
+.label1 								{border-radius: 0.25em; color: #fff; display: inline; font-size: 90%; font-weight: 700;
+    									 line-height: 1; padding: 0.2em 0.6em 0.3em; text-align: center; vertical-align: baseline;
+    									 white-space: nowrap;}
+.dropdown-menu1 						{animation-duration: 0.7s; animation-fill-mode: forwards;
+										 animation-iteration-count: 1; animation-name: fadeAnimation;
+    									 animation-timing-function: ease;}
+.open > .dropdown-menu1 				{display: block;}
+.dropdown-menu1 						{box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); z-index: 2300;}
+.dropdown-menu1 						{background-clip: padding-box; background-color: #fff; 
+										 border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px;
+    									 box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176); display: none; float:none;
+   										 font-size: 14px; left: 0; list-style: none outside none; margin: 2px 0 0;
+    									 min-width: 75px; padding: 2px 0; position: absolute; text-align: center;
+    									 top: 100%; z-index: 1000;}
+*:before, *:after 						{box-sizing: border-box;}
+*:before, *:after 						{box-sizing: border-box;}
+.btn-group.open .dropdown1-toggle 		{box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;}
+.btn-group .dropdown1-toggle:active, 
+.btn-group.open .dropdown1-toggle 		{outline: 0 none;}
+.btn-group > .btn:first-child 			{margin-left: 0;}
+.btn-default:active, .btn-default.active, 
+.open > .dropdown1-toggle.btn-default 	{background-image: none;}
+.btn-default:hover, .btn-default:focus, 
+.btn-default:active, .btn-default.active, 
+.open > .dropdown1-toggle.btn-default 	{background-color: #e6e6e6; border-color: #adadad; color: #333;}
+.btn.btn-default 						{background-color: #fafafa; border-color: #ddd; color: #666;}
+.btn-group > .btn, .btn-group-vertical > 
+.btn 									{float: left; position: relative;}
+.btn 									{border: 1px solid transparent; border-radius: 3px;
+										box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.09) inset; font-weight: 500;}
+.btn-sm, .btn-group-sm > .btn 			{border-radius: 3px;font-size: 12px;
+    									 line-height: 1.5; padding: 5px 10px;}
+.btn-default 							{background-color: #fff; border-color: #ccc; color: #333;}
