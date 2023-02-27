@@ -64,7 +64,7 @@ if( preg_match('/127.0.0.1/i', $_SERVER['SERVER_ADDR']) ){
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
 $db['default']['password'] = '';
-$db['default']['database'] = 'db_simol';
+$db['default']['database'] = 'simol_dbs';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
